@@ -1,0 +1,16 @@
+Programa dieta:
+
+fruta, proteina, ejercicio.
+
+fruta: kiwi, uva, pera
+
+proteina: pescado, res, pollo
+
+ejercicio: correr, trotar, caminar
+
+Hot toca fruta, proteina y 10 minutos de ejercicio.
+
+
+Pagina de ejemplos:
+https://discuss.codecademy.com/c/project/portfolio-project-mixed-messages/1900?_gl=1*al9eje*_ga*NjE3ODY4NTM4Mi4xNjU4Mzc1MTAy*_ga_3LRZM6TM9L*MTY2MDE1OTc3NS4xMjIuMS4xNjYwMTYwMTM4LjIx
+
