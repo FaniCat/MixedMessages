@@ -10,5 +10,6 @@ console.log(ejercicio[getRandomIndex(getMaxNumber(ejercicio))]);
 let rango= frutas.length;
 
 function getRandomIndex(rango){
-    
+      let randomIndex=Math.floor(Math.random()*rango);
+      return randomIndex;
 }
