@@ -8,3 +8,7 @@ console.log(proteinas[getRandomIndex(getMaxNumber(proteinas))]);
 console.log(ejercicio[getRandomIndex(getMaxNumber(ejercicio))]);
 
 let rango= frutas.length;
+
+function getRandomIndex(rango){
+    
+}
