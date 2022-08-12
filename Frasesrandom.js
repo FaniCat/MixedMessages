@@ -3,11 +3,19 @@ const proteinas=['pollo', 'pescado', 'res'];
 const ejercicio=['correr', 'caminar', 'nadar'];
 
 //prints the three lines of a random 
-console.log(futas[getRandomIndex(getMaxNumber(frutas))]);
-console.log(proteinas[getRandomIndex(getMaxNumber(proteinas))]);
-console.log(ejercicio[getRandomIndex(getMaxNumber(ejercicio))]);
+let frase=[];
+frase.push(frutas[getRandomIndex(getMaxNumber(frutas))]);
 
-let rango= frutas.length;
+frase.push(proteinas[getRandomIndex(getMaxNumber(proteinas))]);
+frase.push(ejercicio[getRandomIndex(getMaxNumber(ejercicio))]);
+
+console.log(`Mi fruta de hoy es ${frase[0]} , mi proteina es ${frase[1]} y mi ejercicio es 10 minutos de ${frase[2]}`);
+
+function getMaxNumber(array){
+    let rango= array.length;
+    return rango;
+}
+
 
 function getRandomIndex(rango){
       let randomIndex=Math.floor(Math.random()*rango);
